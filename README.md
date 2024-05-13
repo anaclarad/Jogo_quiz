@@ -1,7 +1,6 @@
-#JOGO QUIZ#
+**JOGO QUIZ**
 
-Este jogo se trata de um jogo de perguntas  e respostas. Inicialmente montamos a estrutura do porjeto apenas com perguntas genéricas(sem muita lógica)  a fim de explorar possiveis funcionalidades. Mas nosso tema final será perguntas relacionadas a conehcimentos gerais.
-Sendo assim, a estrutura do jogo foi criada mas será implementadas funcionalidades e também perguntas(que estão sendo pesquisadas) que possam ser mais elaboradas no contexto de conhecimento geral a fim de testar o player seus conhecimentos.
+Este jogo é um desafio de perguntas e respostas. Inicialmente, construímos sua estrutura com perguntas genéricas, sem uma lógica específica, para explorar diversas funcionalidades. No entanto, o tema final do jogo será conhecimento geral. Assim, estamos atualmente em processo de pesquisa para elaborar perguntas mais complexas e relevantes nesse contexto. Estamos também desenvolvendo funcionalidades adicionais para oferecer uma experiência completa ao jogador, testando seus conhecimentos de forma abrangente.
 
 Exemplo da tela:
 
