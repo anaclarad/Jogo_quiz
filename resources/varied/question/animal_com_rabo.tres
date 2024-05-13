@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://d11vru5pu7333"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_74qvu"]
+
+[resource]
+script = ExtResource("1_74qvu")
+question_info = "Qual animal que come com o Rabo?"
+type = 0
+options = Array[String](["Tigre", "Macaco", "Todos", "Porco"])
+correct = "Todos"

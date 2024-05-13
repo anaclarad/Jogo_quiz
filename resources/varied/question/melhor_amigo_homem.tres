@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://1ednriyyfquo"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_en2ld"]
+
+[resource]
+script = ExtResource("1_en2ld")
+question_info = "Qual melhor amigo do homem?"
+type = 0
+options = Array[String](["Gato", "Jacaré", "Cachorro", "Cobra"])
+correct = "Cachorro"

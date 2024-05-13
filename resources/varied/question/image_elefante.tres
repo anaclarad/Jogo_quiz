@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dpgrw3f8q7vnt"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_h8fd0"]
+
+[resource]
+script = ExtResource("1_h8fd0")
+question_info = ""
+type = 0
+options = Array[String]([])
+correct = ""
