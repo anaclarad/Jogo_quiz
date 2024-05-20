@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=3 format=3 uid="uid://dpgrw3f8q7vnt"]
+
+[ext_resource type="Texture2D" uid="uid://y5hv4dq5jm8c" path="res://assets/sprites/pintura.png" id="1_yubtr"]
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="2_ruwc4"]
+
+[resource]
+script = ExtResource("2_ruwc4")
+question_info = "De quem é a famosa pintura \"O Batismo de Cristo\"?"
+type = 0
+question_image = ExtResource("1_yubtr")
+options = Array[String](["Sócrates", "Leornado da Vinci", "Paul Cézanne", "Pablo Picasso"])
+correct = "Leornado da Vinci"

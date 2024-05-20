@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://1ednriyyfquo"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_2rtpw"]
+
+[resource]
+script = ExtResource("1_2rtpw")
+question_info = "Atualmente quantos elementos existem na tabela peródica?"
+type = 0
+options = Array[String](["780", "92", "110", "118"])
+correct = "118"

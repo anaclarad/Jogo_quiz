@@ -1,10 +1,14 @@
-[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dl3khgup8b6k6"]
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=4 format=3 uid="uid://dl3khgup8b6k6"]
 
+[ext_resource type="AudioStream" uid="uid://bfwxhmx8mxb20" path="res://assets/audio/wolf.mp3" id="1_5t807"]
 [ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_35efe"]
+[ext_resource type="Texture2D" uid="uid://dckph17u1t6gd" path="res://assets/sprites/sound.png" id="2_3fhns"]
 
 [resource]
 script = ExtResource("1_35efe")
-question_info = ""
+question_info = "Qual animal faz este som?"
 type = 0
-options = Array[String]([])
-correct = ""
+question_image = ExtResource("2_3fhns")
+question_audio = ExtResource("1_5t807")
+options = Array[String](["Lobo", "Cachorro", "Lobisomen", "Gato"])
+correct = "Lobo"

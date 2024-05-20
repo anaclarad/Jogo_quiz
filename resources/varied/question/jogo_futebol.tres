@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://b3ke3ef27bcmd"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_kkjmq"]
+
+[resource]
+script = ExtResource("1_kkjmq")
+question_info = "Qual o número mínimo de jogadores em cada time numa partida de futebol?"
+type = 0
+options = Array[String](["8", "9", "10", "7"])
+correct = "7"

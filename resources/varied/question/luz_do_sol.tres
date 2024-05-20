@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://v7q162ipqqcj"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_qy5lp"]
+
+[resource]
+script = ExtResource("1_qy5lp")
+question_info = "Quanto tempo a luz do Sol demora para chegar à Terra?"
+type = 0
+options = Array[String](["1 dia", "1 hora", "5 segundos", "8 minutos"])
+correct = "8 minutos"

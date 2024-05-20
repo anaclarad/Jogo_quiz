@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://xqcatrly4cd0"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_n87qv"]
+
+[resource]
+script = ExtResource("1_n87qv")
+question_info = " Quem é o autor de “O Príncipe”?"
+type = 0
+options = Array[String](["Montesquieu", "Thomas Hobbes", " Rousseau", "Maquiavel"])
+correct = "Maquiavel"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="QuizTheme" load_steps=12 format=3 uid="uid://dvxd76tj5u5x6"]
+
+[ext_resource type="Script" path="res://Scripts/resources/conhecimentosGerais.gd" id="1_uh4i1"]
+[ext_resource type="Resource" uid="uid://xqcatrly4cd0" path="res://resources/varied/question/autor_maquiavel.tres" id="2_u5gvb"]
+[ext_resource type="Resource" uid="uid://d11vru5pu7333" path="res://resources/varied/question/frase_filosofica.tres" id="3_wga5q"]
+[ext_resource type="Resource" uid="uid://b3ke3ef27bcmd" path="res://resources/varied/question/jogo_futebol.tres" id="4_t5rhb"]
+[ext_resource type="Resource" uid="uid://v7q162ipqqcj" path="res://resources/varied/question/luz_do_sol.tres" id="5_umywb"]
+[ext_resource type="Resource" uid="uid://bld246xt7qfg8" path="res://resources/varied/question/maior_animal_terrestre.tres" id="6_haoc2"]
+[ext_resource type="Resource" uid="uid://dnreudup056v0" path="res://resources/varied/question/persongaem_folclorico.tres" id="7_qhqft"]
+[ext_resource type="Resource" uid="uid://dpgrw3f8q7vnt" path="res://resources/varied/question/Pintura.tres" id="8_anuog"]
+[ext_resource type="Resource" uid="uid://1ednriyyfquo" path="res://resources/varied/question/tabela_periodica.tres" id="9_fgqs2"]
+[ext_resource type="Resource" uid="uid://ff15o1jws13y" path="res://resources/varied/question/velocidade_da_luz.tres" id="10_h57rp"]
+[ext_resource type="Resource" uid="uid://dl3khgup8b6k6" path="res://resources/varied/question/wolfS_som_question.tres" id="11_7k80n"]
+
+[resource]
+script = ExtResource("1_uh4i1")
+theme = Array[Resource("res://Scripts/resources/question.gd")]([ExtResource("2_u5gvb"), ExtResource("3_wga5q"), ExtResource("4_t5rhb"), ExtResource("5_umywb"), ExtResource("6_haoc2"), ExtResource("7_qhqft"), ExtResource("8_anuog"), ExtResource("9_fgqs2"), ExtResource("10_h57rp"), ExtResource("11_7k80n")])

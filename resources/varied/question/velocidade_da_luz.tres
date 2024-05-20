@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://ff15o1jws13y"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_brmpx"]
+
+[resource]
+script = ExtResource("1_brmpx")
+question_info = "Qual a velocidade da luz?"
+type = 0
+options = Array[String]([" 300 000 000 metros por segundo (m/s)", "150 000 000 metros por segundo (m/s)", "199 792 458 metros por segundo (m/s)", "299 792 458 metros por segundo (m/s)"])
+correct = "299 792 458 metros por segundo (m/s)"

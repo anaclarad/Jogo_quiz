@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://d11vru5pu7333"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_b8wug"]
+
+[resource]
+script = ExtResource("1_b8wug")
+question_info = "QDe quem é a famosa frase \"penso logo existo\"?"
+type = 0
+options = Array[String](["Simpósio", "Galileu Galilei", "Descartes", "Não se aplica"])
+correct = "Descartes"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dnreudup056v0"]
+
+[ext_resource type="Script" path="res://Scripts/resources/question.gd" id="1_l5dsj"]
+
+[resource]
+script = ExtResource("1_l5dsj")
+question_info = ". Qual personagem folclórico costuma ser agradado pelos caçadores com a oferta de fumo?"
+type = 0
+options = Array[String](["Caipora", "Saci", "Lobsomen", "Negrinho do Pastoreio"])
+correct = "Saci"
